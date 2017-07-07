@@ -1,4 +1,4 @@
-System.register("hello-world", [], function (exports_1, context_1) {
+System.register([], function (exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var HelloWorld;
@@ -19,4 +19,4 @@ System.register("hello-world", [], function (exports_1, context_1) {
         }
     };
 });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=hello-world.js.map

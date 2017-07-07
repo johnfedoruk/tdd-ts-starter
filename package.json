@@ -41,5 +41,8 @@
       "html"
     ],
     "all": true
+  },
+  "dependencies": {
+    "systemjs": "^0.20.14"
   }
 }
