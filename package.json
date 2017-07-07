@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r ts-node/register tests/**/*.spec.ts",
+    "test": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register tests/**/*.spec.ts",
     "start": "lite-server ./index.html",
-    "cover": "nyc npm t",
+    "cover": "TS_NODE_COMPILER_OPTIONS='{\"checkJs\":false}' nyc npm t",
     "compile": "./node_modules/tsc/bin/tsc"
   },
   "author": "JavaCrypt",
